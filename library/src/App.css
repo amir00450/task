@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    direction: rtl;
+}
+header{
+    display: flex;
+    padding: 2.5rem;
+    gap: 5rem;
+    background-color: bisque;
+    border: 1px solid black;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+header p{
+    font-size: x-large;
+    background-color: blueviolet;
+    color: bisque;
+    padding: 1rem;
+    border-radius: 10px;
+}
+ul{
+    display: flex;
+    gap: 1.5rem;
+    padding-top: 1.4rem;
+}
+li{
+    list-style: none;
+    font-size: larger;
+}
+
+.Books{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    margin-right: 5rem;
+    margin-top: 3rem;
+}
+.Books a{
+    text-align: center;
+    width: 8vw;
+    padding: 1rem 0;
+    background-color: blueviolet;
+    border-radius: 20px;
+    color: antiquewhite;
+    transition: 0.5s;
+}
+.Books a:hover{
+    background-color: rgba(137, 43, 226, 0.507); 
+}
+
+.book{
+    text-align: end;
+    width: 18vw;
+    height: 21vh;
+    padding: 2.5rem;
+    margin: -10rem auto;
+    background-color: bisque;
+    border-radius: 15px;
+    border: 0.5px solid black;
+}
+.book p{
+    color: blueviolet;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
