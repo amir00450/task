@@ -1,0 +1,7 @@
+export {default as Header} from "./Header"
+export {default as Main} from "./Main"
+export {default as Card} from "./Card"
+export {default as Allcards} from "./Allcards"
+export {default as ShowCard} from "./ShowCard"
+export {default as Footer} from "./Footer"
+export {default as Spiner} from "./Spiner"

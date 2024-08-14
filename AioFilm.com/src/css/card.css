@@ -1,0 +1,14 @@
+#nav:hover img{
+    opacity: 0.3;
+}
+#nav:hover .txthover{
+    display: block;
+}
+.txthover{
+    color: white;
+    display: none;
+}
+.txthover:hover{
+    transition: 0.7s;
+    color: rgb(206, 206, 0);
+}
